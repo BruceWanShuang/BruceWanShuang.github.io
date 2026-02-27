@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Link
+title: 首页
 permalink: /link/
 icon: octicon-link-external
 
 ---
 
-### [github](https://github.com/bit-ranger/blog)
+### [github](https://brucewanshuang.github.io)
