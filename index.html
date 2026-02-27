@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <!-- 简单样式让页面看着舒服一点 -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f8ff;   /* 浅蓝色背景，像天空 */
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+        }
+        .hello-card {
+            background-color: white;
+            border-radius: 2rem;          /* 圆角卡片 */
+            padding: 2.5rem 4rem;
+            box-shadow: 0 20px 35px rgba(0, 20, 30, 0.1), 0 8px 12px rgba(0,0,0,0.05);
+            text-align: center;
+            border: 1px solid rgba(255,255,240,0.6);
+            backdrop-filter: blur(2px);
+            transition: transform 0.2s ease;
+        }
+        .hello-card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 25px 40px rgba(0, 40, 60, 0.15);
+        }
+        h1 {
+            font-size: 4rem;
+            margin: 0 0 0.5rem 0;
+            font-weight: 600;
+            background: linear-gradient(145deg, #1e3c72, #2a5298);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: 2px;
+        }
+        p {
+            font-size: 1.3rem;
+            color: #2c3e50;
+            margin: 0.5rem 0 0 0;
+            border-top: 2px dashed #b0c4de;
+            padding-top: 0.75rem;
+            display: inline-block;
+        }
+        /* 可选的小彩蛋：一个极简的地球符号 */
+        .earth-emoji {
+            font-size: 2rem;
+            filter: drop-shadow(0 4px 4px #aaa);
+            margin-bottom: 0.25rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="hello-card">
+        <!-- 装饰性的小地球 (可选) -->
+        <div class="earth-emoji">🌍</div>
+        <!-- 核心内容: hello world -->
+        <h1>Hello, World!</h1>
+        <!-- 一句说明 (符合 hello world 传统，又有点趣味) -->
+        <p>从HTML发出的问候</p>
+        <!-- 隐藏注释：最简单的经典，献给每一位学习者/开发者 -->
+    </div>
+</body>
+</html>
